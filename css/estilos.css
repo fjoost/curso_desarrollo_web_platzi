@@ -1,0 +1,26 @@
+/*Reglas
+    Selectores
+    Declaraciones
+    Propiedades
+    Valores
+    */
+
+header{
+    background:pink;
+    color: red /*último elemento se deja sin ; */
+}
+
+/* selector de etiqueta header - section - article - nav */
+
+/*selector descendente*/
+
+    /*body header div nav ol li a {
+    }*/
+
+    /*selector de clase: . */
+        /* .portafolio{} */
+
+        /* .link */
+
+    /*selector de ID: # */
+        /* ejemplo: #portafolio{} */

@@ -5,10 +5,10 @@
     Valores
     */
 
-header{
+
     /*background:pink;*/
     /*color: red*/ /*último elemento se deja sin ; */
-}
+
 
 /* selector de etiqueta header - section - article - nav */
 
@@ -37,17 +37,31 @@ header{
         h1{
             font-size: 40px; /*tamaño fuente*/
             line-height: 1.5; /*separación fuente (mirar inspector)*/
-            font-weight: normal; /*normal=400px, bold=600px*/
-            letter-spacing: -.2px;
-            text-transform: uppercase;
+            /*font-weight: normal;*/ /*normal=400px, bold=600px*/
+            color: white;
+            /* letter-spacing: -.2px; */
+            /* text-transform: uppercase; */
+        }
+
+        h1 strong {
+            color:#026fff;
         }
 
         .hero{
             height: 300px;
-            background-image: url('../images/hero.jpg');
+            background-image: url('../images/DSC_0316.JPG');
+            background-color: #1d252c;
             background-size: 500px 300px;
             background-repeat: no-repeat;
-            background-position:  ;
+            background-position-x: right ; /*  */
+        }
+
+        .project{
+            border-top: 10px solid red;
+            border-left: 10px solid orange;
+            border-right: 10px solid green;
+            border-bottom: 10px solid pink;
+
         }
         .project-details{
             width: 500px;
@@ -58,13 +72,15 @@ header{
 
         /* gris oscuro = #1d252c /
         / gris claro = #626262 /
-        / background gris = #1b2127 */
+        / background gris = #1b2127
+            celeste = #026fff
+        */
 
         .header{
             background-color:#1d252c;
             color: white;
         }
-        /* primer selector descendente, aplicar a los a hijos de header */
+        /* primer selector descendente, aplicar a las anclas hijos de header */
         .header a{
             color: white;
             text-decoration: none;

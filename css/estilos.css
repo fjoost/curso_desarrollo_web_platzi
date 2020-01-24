@@ -41,6 +41,8 @@
             color: white;
             /* letter-spacing: -.2px; */
             /* text-transform: uppercase; */
+            /* margin: top right bottom left; */
+            margin: 100px 150px 70px 30px;
         }
 
         h1 strong {

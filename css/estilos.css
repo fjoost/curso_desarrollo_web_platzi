@@ -1,21 +1,20 @@
-/*Reglas
-    Selectores
-    Declaraciones
-    Propiedades
-    Valores
+/* ----------------------APUNTES DE CSS ----------------------*/
+    /*Reglas
+        Selectores
+        Declaraciones
+        Propiedades
+        Valores
     */
 
 
     /*background:pink;*/
     /*color: red*/ /*último elemento se deja sin ; */
+    /* selector de etiqueta header - section - article - nav */
 
+    /*selector descendente*/
 
-/* selector de etiqueta header - section - article - nav */
-
-/*selector descendente*/
-
-    /*body header div nav ol li a {
-    }*/
+        /*body header div nav ol li a {
+        }*/
 
     /*selector de clase: . */
         /* .portafolio{} */
@@ -25,10 +24,50 @@
     /*selector de ID: # */
         /* ejemplo: #portafolio{} */
 
+            /* ------COLORES CSS DE MOCKUP -----*/
+        /* gris oscuro = #1d252c /
+        / gris claro = #626262 /
+        / background gris = #1b2127
+            celeste = #026fff
+        */
+
         body{
             font-family: 'Source Sans Pro', sans-serif;
             /*si no encuentra la primera, busca la segunda, tercera... n_esima*/
             margin: 0;
+        }
+
+        .header{
+            background-color:#1d252c;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        /* primer selector descendente, aplicar a las anclas hijos de header */
+        .header a{
+            color: white;
+            text-decoration: none;
+        }
+
+        figure{
+            margin: 0;
+        }
+
+        ol, ul{
+            /* se les asigna 0 y none por que por defecto tienen valores predet */
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        .hero{
+            height: 300px;
+            background-image: url('../images/DSC_0316.JPG');
+            background-color: #1d252c;
+            background-size: 500px 300px;
+            background-repeat: no-repeat;
+            background-position-x: right ; /*  */
         }
 
         h1,h2,h3,h4,h5,h6{
@@ -50,15 +89,6 @@
             color:#026fff;
         }
 
-        .hero{
-            height: 300px;
-            background-image: url('../images/DSC_0316.JPG');
-            background-color: #1d252c;
-            background-size: 500px 300px;
-            background-repeat: no-repeat;
-            background-position-x: right ; /*  */
-        }
-
         .portfolio{
             background: #fafafa;
         }
@@ -72,7 +102,6 @@
             border-width: 10px;
             border-style: groove;
             border-color: royalblue; */
-
             border: 1px solid gray;
             border-radius: 10px;
             /* border-top-left-radius: 50px; */
@@ -91,35 +120,9 @@
         .project-details{
             width: 500px;
         }
+
         .project-imageContainer{
             width: 500px;
-        }
-
-        /* gris oscuro = #1d252c /
-        / gris claro = #626262 /
-        / background gris = #1b2127
-            celeste = #026fff
-        */
-
-        .header{
-            background-color:#1d252c;
-            color: white;
-            display: flex;
-        }
-
-        ol, ul{
-            margin: 0;
-            padding: 0;
-            list-style: none;
-        }
-
-        figure{
-            margin: 0;
-        }
-        /* primer selector descendente, aplicar a las anclas hijos de header */
-        .header a{
-            color: white;
-            text-decoration: none;
         }
 
         .flexbox{

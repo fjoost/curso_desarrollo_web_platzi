@@ -44,6 +44,12 @@
             justify-content: space-between;
         }
 
+        .menu{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
         /* primer selector descendente, aplicar a las anclas hijos de header */
         .header a{
             color: white;
@@ -93,7 +99,7 @@
             background: #fafafa;
         }
 
-        .project{
+        .project, .event{
             /* border-top: 10px solid red;
             border-left: 10px solid orange;
             border-right: 10px solid green;
@@ -117,11 +123,11 @@
             background: white;
 
         }
-        .project-details{
+        .project-details, .event-details{
             width: 500px;
         }
 
-        .project-imageContainer{
+        .project-imageContainer, .event-imageContainer{
             width: 500px;
         }
 
@@ -130,6 +136,7 @@
             /* flex-direction: column; */
             flex-wrap: wrap;
             justify-content: center;
+            flex-direction: column;
         }
 
         .box{

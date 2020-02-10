@@ -42,8 +42,8 @@
             color: white;
             display: flex; 
             justify-content: space-between;
-            /* align-items: center; */
-            height: 90px;
+            align-items: center;
+            height: 70px;
         }
 
         .menu{
@@ -96,10 +96,13 @@
             background-size: 500px 300px;
             background-repeat: no-repeat;
             background-position-x: right ; /*  */
+            display: flex;
+            align-items: center;
         }
 
         h1,h2,h3,h4,h5,h6{
             font-family: 'Fjalla One';
+            margin: 0;
         }
 
         h1{
@@ -168,4 +171,20 @@
             flex-shrink: 0;
             margin: 5px;
             
+        }
+
+        .footer{
+            background-color: #1d252c;
+            color:white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .footer img{
+            vertical-align: middle;
+        }
+
+        .footer a {
+            color: white;
         }

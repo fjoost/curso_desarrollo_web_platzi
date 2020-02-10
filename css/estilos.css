@@ -40,20 +40,42 @@
         .header{
             background-color:#1d252c;
             color: white;
-            display: flex;
+            display: flex; 
             justify-content: space-between;
+            /* align-items: center; */
+            height: 90px;
         }
 
         .menu{
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
+            height: inherit;
         }
 
         /* primer selector descendente, aplicar a las anclas hijos de header */
         .header a{
             color: white;
             text-decoration: none;
+        }
+
+        .header ol{
+            display: flex;
+            height: inherit;
+            
+        }
+
+        .header ol li{
+            height: inherit;
+            
+        }
+
+        .header a{
+            display: flex;
+            height: inherit;
+            align-items: center;
+            padding: 0 10px;
+
         }
 
         figure{

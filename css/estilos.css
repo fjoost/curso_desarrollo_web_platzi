@@ -119,9 +119,18 @@
         h1 strong {
             color:#026fff;
         }
+        h2 {
+            color:#026fff;
+            text-transform: uppercase;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-weight: bold;
+            font-size: 24px;
+            margin-bottom: 40px;
+        }
 
         .portfolio{
             background: #fafafa;
+            padding: 20px;
         }
 
         .project, .event{
@@ -143,10 +152,25 @@
             /* display: block;
             margin: 0 auto; */
             padding: 20px;
-            margin: 10px;
+            /* margin: 10px; */
             margin-bottom: 15px;
             background: white;
+            display: flex;
 
+        }
+
+        .project-title{
+            font-size: 30px;
+            margin-bottom: 10px;
+            margin-top: 0;
+        }
+
+        .project-course{
+            margin-top: 10px;
+        }
+
+        .project-date{
+            margin:10px 0;
         }
         .project-details, .event-details{
             width: 500px;
@@ -188,3 +212,4 @@
         .footer a {
             color: white;
         }
+

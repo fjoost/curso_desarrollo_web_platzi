@@ -133,7 +133,7 @@
             padding: 20px;
         }
 
-        .project, .event{
+        .project{
             /* border-top: 10px solid red;
             border-left: 10px solid orange;
             border-right: 10px solid green;
@@ -156,8 +156,11 @@
             margin-bottom: 15px;
             background: white;
             display: flex;
-
+            align-items: center;
+            justify-content: space-between;
         }
+
+        
 
         .project-title{
             font-size: 30px;
@@ -165,13 +168,22 @@
             margin-top: 0;
         }
 
-        .project-course{
+        .project-course, .project-date, .project-url{
             margin-top: 10px;
         }
 
-        .project-date{
-            margin:10px 0;
+        .project-description{
+            font-size: 20px;
         }
+
+        .project strong{
+            font-family: 'Fjalla One';
+
+        }
+
+        /* .project-date{
+            margin:10px 0;
+        } */
         .project-details, .event-details{
             width: 500px;
         }
